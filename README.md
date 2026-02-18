@@ -36,18 +36,3 @@ if err != nil {
 }
 fmt.Println(result) // Output: John
 ```
-
-## Publishing
-
-When ready to publish:
-
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
-
-Others can then:
-
-```bash
-go get github.com/amaster507/goschemaless@v0.1.0
-```
